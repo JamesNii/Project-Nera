@@ -1,0 +1,15 @@
+
+    body {
+    background-color: black;
+      margin: 0;
+      padding: 0;
+    }
+    .video-container {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    .video-container video {
+      width: 500;
+      height: 400;
+    }
