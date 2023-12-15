@@ -1,3 +1,7 @@
+body{
+    background-color:rgb(15, 3, 44);
+    color: aliceblue;
+}
 .Features{
     border: 1px solid black;
     /* align-content: flex-start; */
@@ -144,11 +148,96 @@
 .feat3_des p{
     align-self: center;
     width: 500px;
-    margin-left: 80px;
+    margin-left: 60px;
     font-size: 23px;
 }
 
 .feat3_image{
     border: 1px solid green;
     margin-left: 0px;
+}
+
+.feat3_image img{
+    width: 700px;
+    height: 478px;
+}
+
+
+/* FEATURE 4 */
+.feat4{
+    border: 1px solid blue;
+    display: flex;
+    font-size: large;
+    font-style: oblique;
+    margin-top: 10px;
+    
+    /* width: 500px; */
+}
+
+.feat4_des{
+    border: 1px solid black;
+    width: 622px;
+    padding-top: 30px;
+    margin-left: 53px;
+}
+
+.feat4_des h1{
+    font-weight: bold;
+    text-align: center;
+    font-size: 35px;
+}
+
+.feat4_des h2{
+    font-weight: bold;
+    margin-left: 80px;
+    font-size: 30px;
+}
+
+.feat4_des p{
+    align-self: center;
+    width: 600px;
+    margin-left: 15px;
+    font-size: 23px;
+}
+
+.feat4_image{
+    border: 1px solid green;
+    margin-left: 0px;
+    width: 600px;
+    height: 409px;
+}
+
+.feat4_image img{
+    width: 600px;
+    height: 409px;
+}
+
+
+.audio_spec{
+    display: flex;
+    border: 1px solid black;
+}
+
+.a_spec1{
+    border: 1px solid black;
+    width: 265px;
+    margin-left: 30px;
+    /* font-weight: bold; */
+    text-align: center;
+}
+
+.a_spec2{
+    border: 1px solid black;
+    width: 240px;
+    margin-left: 55px;
+    /* font-weight: bold; */
+    text-align: center;
+}
+
+
+.a_spec_num{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
 }
