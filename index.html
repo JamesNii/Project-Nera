@@ -4,94 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/assets/css/index.css"> 
 
     <style>
-        * {box-sizing:border-box}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
+ 
     </style>
 </head>
 <body>
@@ -101,86 +17,62 @@
     <section class="Home" id="Home">
 
     </section>
-    section class="Features" id="Features">
+    <section class="Features" id="Features">
         <div class="feat1">
             <div class="feat1_des">
-
+              <h1>DDR5 RAM</h1>
+              <p>Leveraging the brand new DDR5 standard, enjoy a huge generational performance jump to 4800Mhz, with write times 50% faster than DDR4 equipped machines. This ultra-fast memory makes all aspects of the laptop feel snappy, from intense gaming to light web browsing.</p>
             </div>
-            <div class="feat1_image"></div>
+            <div class="feat1_image">
+              <img src="/assets/images/3__performance2_pic2 DDR5.webp" alt="DDR5 RAM">
+            </div>
         </div>
+        <div class="feat2">
+          <div class="feat2_image">
+            <img src="/assets/images/3__performance2_pic1 - AMD.webp" alt="AMD processor">
+          </div>
+          <div class="feat2_des">
+            <h1>CPU - AMD Ryzen™ 9 7945HX3D</h1>
+            <h2>3D Supremacy​</h2>
+            <p>3D V-Cache technology is available for the very first time in a laptop. The Ryzen 9™ 7945HX3D offers double the L3 cache of its non-X3D equipped predecessor, leading to incredible performance gains in gaming on the same process node.</p>
+            <div class="pro_spec">
+              <div class="spec1">
+                <div class="spec_num">16</div>
+                <div>CORES</div>
+              </div>
+              <div class="spec2">
+                <div class="spec_num">32</div>
+                <div>THREADS</div>
+              </div>
+              <div class="spec3">
+                <div class="spec_num">128</div>
+                <div>L3 CACHE</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="feat3">
+          <div class="feat3_des">
+            <h1>DDR5 RAM</h1>
+            <p>Leveraging the brand new DDR5 standard, enjoy a huge generational performance jump to 4800Mhz, with write times 50% faster than DDR4 equipped machines. This ultra-fast memory makes all aspects of the laptop feel snappy, from intense gaming to light web browsing.</p>
+          </div>
+          <div class="feat3_image">
+            <img src="/assets/images/3__performance2_pic2 DDR5.webp" alt="DDR5 RAM">
+          </div>
+        </div>
+        <div class="feat4">
+          <div class="feat4_image">
+            <h1>DDR5 RAM</h1>
+            <p>Leveraging the brand new DDR5 standard, enjoy a huge generational performance jump to 4800Mhz, with write times 50% faster than DDR4 equipped machines. This ultra-fast memory makes all aspects of the laptop feel snappy, from intense gaming to light web browsing.</p>
+          </div>
+          <div class="feat4_des">
+            <img src="/assets/images/3__performance2_pic2 DDR5.webp" alt="DDR5 RAM">
+          </div>
+        </div>
+      
     </section>
     <section class="Gallary" id="Gallary">
-        <div class="slideShow-container">
-            <div class="mySlideShow">
-                <div class="numberText1">1/12</div>
-                <img src="/assets/images/h732.png" alt="ROG Strix G15" style="width: auto;">
-            </div>
-            <div class="mySlideShow">
-                <div class="numberText2">2/12</div>
-                <img src="assets/images/h732 (1).png" alt="Best frame rate" style="width: auto;">
-            </div>
-            <div class="mySlideShow">
-                <div class="numberText3">3/12</div>
-                <img src="assets/images/h732 (2).png" alt="ROG Strix SCAR 17 X3D (2023) G733" style="width: auto;">
-            </div>
-            <div class="mySlideShow">
-                <div class="numberText4">4/12</div>
-                <img src="assets/images/h732 (3).png" alt="ROG Strix SCAR 17 X3D (2023) G733" style="width: auto;">
-            </div>
-            <div class="mySlideShow">
-                <div class="numberText5">5/12</div>
-                <img src="assets/images/h732 (4).png" alt="ROG Strix SCAR 17 X3D (2023) G733" style="width: auto;">
-            </div>
-            <div class="mySlideShow">
-                <div class="numberText6">6/12</div>
-                <img src="assets/images/h732 (5).png" alt="ROG Strix SCAR 17 X3D (2023) G733" style="width: auto;">
-            </div>
-            <div class="mySlideShow">
-                <div class="numberText7">7/12</div>
-                <img src="assets/images/h732 (6).png" alt="ROG Strix SCAR 17 X3D (2023) G733" style="width: auto;">
-            </div>
-            <div class="mySlideShow">
-                <div class="numberText8">8/12</div>
-                <img src="assets/images/h732 (7).png" alt="ROG Strix SCAR 17 X3D (2023) G733" style="width: auto;">
-            </div>
-            <div class="mySlideShow">
-                <div class="numberText9">9/12</div>
-                <img src="assets/images/h732 (8).png" alt="ROG Strix SCAR 17 X3D (2023) G733" style="width: auto;">
-            </div>
-            <div class="mySlideShow">
-                <div class="numberText10">10/12</div>
-                <img src="assets/images/h732 (9).png" alt="ROG Strix SCAR 17 X3D (2023) G733" style="width: auto;">
-            </div>
-            <div class="mySlideShow">
-                <div class="numberText11">11/12</div>
-                <img src="assets/images/h732 (10).png" alt="ROG Strix SCAR 17 X3D (2023) G733" style="width: auto;">
-            </div>
-            <div class="mySlideShow">
-                <div class="numberText12">12/12</div>
-                <img src="assets/images/h732 (11).png" alt="ROG Strix SCAR 17 X3D (2023) G733" style="width: auto;">
-            </div>
-
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-        <div class="caption-container">
-            <p id="caption"></p>
-          </div>
-          <div style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-            <span class="dot" onclick="currentSlide(4)"></span>
-            <span class="dot" onclick="currentSlide(5)"></span>
-            <span class="dot" onclick="currentSlide(6)"></span>
-            <span class="dot" onclick="currentSlide(7)"></span>
-            <span class="dot" onclick="currentSlide(8)"></span>
-            <span class="dot" onclick="currentSlide(9)"></span>
-            <span class="dot" onclick="currentSlide(10)"></span>
-            <span class="dot" onclick="currentSlide(11)"></span>
-          </div>
-
-        </div>
+        
     </section>
     <section class="contact" id="contact">
         
