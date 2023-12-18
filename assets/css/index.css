@@ -1,3 +1,53 @@
+/* NAV BAR => ERNEST */
+
+.navbar{
+    /* background: crimson;  */
+    font-family: calibri; 
+    padding-right: 15px;
+    padding-left: 15px; 
+    display: flex;
+}
+.navdiv{
+    display: flex; 
+    align-items: center; 
+    justify-items: center;
+
+}
+ .logo a{
+    font-size: 35px; 
+    font-weight: 600; 
+    color: white;
+ }
+ li{
+    list-style: none; 
+    display: inline-block;
+ }
+ li a{
+    color: white; 
+    font-size: 18px; 
+    font-weight: bold; 
+    margin-right: 25px;
+
+ }
+ button{
+    background-color: black; 
+    margin-left: 10px; 
+    border-radius: 10px; 
+    padding:10px; 
+    Width: 90px;
+
+ }
+ button a{
+    color: white; 
+    font-weight: bold; 
+    font-size: 15px;
+ }
+ .ul_li{
+    align-self: right;
+    margin-left: 660px;
+ }
+
+
 /* HOME => Ruthia */
 body {
   margin: 0;
