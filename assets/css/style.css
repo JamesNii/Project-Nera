@@ -11,12 +11,15 @@
 
 .container{
     position: relative;
-    top: 50%;
+    /* top: 50%;
     bottom: 15%;;
-    left: 30%;
-    transform: translate(-50%, -50%);
-    width: 700px;
-    height: 400px;
+    left: 30%; */
+    /* transform: translate(-50%, -50%); */
+    /* width: 700px; */
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: rgb(33, 29, 71);
     box-shadow: 0 30px 50px #dbdbdb;
     border-radius: 10px;
