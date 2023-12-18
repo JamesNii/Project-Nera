@@ -29,17 +29,20 @@ video{
   transform: translate(-50%, -50%);
   text-align: center;
   color: white;
+  font-size: 20px;
 }
 
 
 .left-aligned-text{
   text-align: left;
   /* margin: 20px; */
+
 }
 
 .left-aligned-text h1{
   font-family: 'Times New Roman', Times, serif;
   color: white;
+  font-size: 50px;
 }
 
 .Features {
