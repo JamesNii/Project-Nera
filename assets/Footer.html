@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .footer-info {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .info-section {
+            flex: 1;
+            margin: 10px;
+        }
+
+        h3 {
+            color: #3498db;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+
+        /* Styles for button and modal */
+        .contact-button {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            justify-content: center;
+            align-items: center;
+        }
+
+        .modal-content {
+            background-color: #2c3e50;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        /* Close button */
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        
+    </style>
+</head>
+<body>
+
+
+
+<footer>
+    <div class="footer-info">
+        <div class="info-section">
+            <h3>Contact Us</h3>
+            <p>Email: projectnera@.com</p>
+            <p>Phone: +233 548736674</p>
+            <p>Phone: +233 509576710</p>
+            <p>Phone: +233 591084698</p>
+        </div>
+        <div class="info-section">
+            <h3>Follow Us</h3>
+            <p><a href="#" target="_blank">Facebook</a></p>
+            <p><a href="#" target="_blank">Twitter</a></p>
+            <p><a href="#" target="_blank">Instagram</a></p>
+        </div>
+        <div class="info-section">
+            <h3>Location</h3>
+            <p>123 Ameda Street, Accra-Dworwulu</p>
+            <p>Ghana</p>
+        </div>
+    </div>
+
+    <p>&copy; 2023 PROJECT-NERA. All rights reserved.</p>
+
+    <!-- Reach Out Button -->
+<button onclick="openModal()" class="contact-button">Reach Out</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <form action="">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject"><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="40"></textarea><br><br>
+            <input type="submit" value="Send">
+        </form>
+    </div>
+
+</div>
+
+<script>
+    // JavaScript functions to show/hide the modal
+    function openModal() {
+        document.getElementById('myModal').style.display = 'flex';
+    }
+
+    function closeModal() {
+        document.getElementById('myModal').style.display = 'none';
+    }
+</script>
+
+</footer>
+
+
+</body>
+</html>
