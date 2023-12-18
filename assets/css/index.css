@@ -1,7 +1,10 @@
+
 body, html{
   margin: 0;
   padding: 0;
   height: 100%;
+  background-color:rgb(15, 3, 44);
+  color: aliceblue;
 }
 
 .video-container{
@@ -35,4 +38,244 @@ video{
 .left-aligned-text h1{
   font-family: 'Times New Roman', Times, serif;
   color: white;
+}
+
+.Features {
+    border: 0px solid black;
+    /* align-content: flex-start; */
+    /* display: flex; */
+}
+
+.feat1{
+    /* border: 1px solid blue; */
+    display: flex;
+    font-size: large;
+    font-style: oblique;
+    margin: 3px 3px;
+    
+    /* width: 500px; */
+}
+
+.feat1_des{
+    /* border: 1px solid black; */
+    width: 622px;
+    padding-top: 43px;
+}
+
+.feat1_des h1{
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+}
+
+.feat1_des p{
+    align-self: center;
+    width: 500px;
+    margin-left: 80px;
+    font-size: 23px;
+}
+
+.feat1_image{
+    /* border: 1px solid green; */
+    margin-left: 0px;
+}
+
+
+/* FEATURE 2 */
+.feat2{
+    /* border: 1px solid blue; */
+    display: flex;
+    font-size: large;
+    font-style: oblique;
+    margin-top: 10px;
+    
+    /* width: 500px; */
+}
+
+.feat2_des{
+    /* border: 1px solid black; */
+    width: 622px;
+    padding-top: 0px;
+    margin-left: 53px;
+}
+
+.feat2_des h1{
+    font-weight: bold;
+    text-align: center;
+    font-size: 35px;
+}
+
+.feat2_des h2{
+    font-weight: bold;
+    margin-left: 80px;
+    font-size: 25px;
+}
+
+.feat2_des p{
+    align-self: center;
+    width: 500px;
+    margin-left: 80px;
+    font-size: 23px;
+}
+
+.pro_spec{
+    display: flex;
+    /* border: 1px solid black; */
+}
+
+.spec1{
+    /* border: 1px solid black; */
+    width: 75px;
+    margin-left: 121px;
+    /* font-weight: bold; */
+    text-align: center;
+}
+
+.spec2{
+    /* border: 1px solid black; */
+    width: 90px;
+    margin-left: 55px;
+    /* font-weight: bold; */
+    text-align: center;
+}
+
+.spec3{
+    /* border: 1px solid black; */
+    width: 100px;
+    margin-left: 55px;
+    /* font-weight: bold; */
+    text-align: center;
+}
+
+.spec_num{
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+.feat2_image{
+    /* border: 1px solid green; */
+    margin-left: 10px;
+}
+
+/* FEATURE 3 */
+
+.feat3{
+    /*border: 1px solid blue; */
+    display: flex;
+    font-size: large;
+    font-style: oblique;
+    margin-top: 20PX;
+    
+    /* width: 500px; */
+}
+
+.feat3_des{
+    /* border: 1px solid black; */
+    width: 622px;
+    padding-top: 43px;
+}
+
+.feat3_des h1{
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+}
+
+.feat3_des p{
+    align-self: center;
+    width: 500px;
+    margin-left: 60px;
+    font-size: 23px;
+}
+
+.feat3_image{
+    /* border: 1px solid green; */
+    margin-left: 0px;
+}
+
+.feat3_image img{
+    width: 670px;
+    height: 440px;
+}
+
+
+/* FEATURE 4 */
+.feat4{
+    /* border: 1px solid blue; */
+    display: flex;
+    font-size: large;
+    font-style: oblique;
+    margin-top: 2       0px;
+    
+    /* width: 500px; */
+}
+
+.feat4_des{
+    /* border: 1px solid black; */
+    width: 622px;
+    padding-top: 30px;
+    margin-left: 53px;
+}
+
+.feat4_des h1{
+    font-weight: bold;
+    text-align: center;
+    font-size: 35px;
+}
+
+.feat4_des h2{
+    font-weight: bold;
+    margin-left: 80px;
+    font-size: 30px;
+}
+
+.feat4_des p{
+    align-self: center;
+    width: 600px;
+    margin-left: 15px;
+    font-size: 23px;
+}
+
+.feat4_image{
+    /* border: 1px solid green; */
+    margin-left: 0px;
+    width: 600px;
+    height: 409px;
+}
+
+.feat4_image img{
+    width: 600px;
+    height: 409px;
+}
+
+
+.audio_spec{
+    display: flex;
+    /* border: 1px solid black; */
+}
+
+.a_spec1{
+    /* border: 1px solid black; */
+    width: 265px;
+    margin-left: 30px;
+    /* font-weight: bold; */
+    text-align: center;
+}
+
+.a_spec2{
+    /* border: 1px solid black; */
+    width: 240px;
+    margin-left: 55px;
+    /* font-weight: bold; */
+    text-align: center;
+}
+
+
+.a_spec_num{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
 }
