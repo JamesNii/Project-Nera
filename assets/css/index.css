@@ -4,19 +4,20 @@ body {
   padding: 0;
   height: 100%; 
   background-color:rgb(15, 3, 44);
-  color: rgb(152, 194, 233);
+  color: rgb(198, 227, 255);
 }
 
 .video-container{
-  /* height: 100vh; */
+  
   overflow: hidden;
+  border: 1px solid black;
 }
 
-/* video{
-  width: 464px;
-  height: 848px;
+video{
+  width: 100%;
+  height: auto;
   object-fit: cover;
-} */
+}
 
 .text-overlay{
   font-family: Bradley Hand;
@@ -32,7 +33,7 @@ body {
 
 .left-aligned-text{
   text-align: left;
-  margin: 20px;
+  /* margin: 20px; */
 }
 
 .left-aligned-text h1{
