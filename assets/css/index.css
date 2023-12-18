@@ -3,13 +3,13 @@ body{
     color: aliceblue;
 }
 .Features{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     /* align-content: flex-start; */
     /* display: flex; */
 }
 
 .feat1{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     display: flex;
     font-size: large;
     font-style: oblique;
@@ -19,7 +19,7 @@ body{
 }
 
 .feat1_des{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 622px;
     padding-top: 43px;
 }
@@ -38,14 +38,14 @@ body{
 }
 
 .feat1_image{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     margin-left: 0px;
 }
 
 
 /* FEATURE 2 */
 .feat2{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     display: flex;
     font-size: large;
     font-style: oblique;
@@ -55,7 +55,7 @@ body{
 }
 
 .feat2_des{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 622px;
     padding-top: 0px;
     margin-left: 53px;
@@ -70,7 +70,7 @@ body{
 .feat2_des h2{
     font-weight: bold;
     margin-left: 80px;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .feat2_des p{
@@ -82,11 +82,11 @@ body{
 
 .pro_spec{
     display: flex;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .spec1{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 75px;
     margin-left: 121px;
     /* font-weight: bold; */
@@ -94,7 +94,7 @@ body{
 }
 
 .spec2{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 90px;
     margin-left: 55px;
     /* font-weight: bold; */
@@ -102,7 +102,7 @@ body{
 }
 
 .spec3{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 100px;
     margin-left: 55px;
     /* font-weight: bold; */
@@ -117,24 +117,24 @@ body{
 
 
 .feat2_image{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     margin-left: 10px;
 }
 
 /* FEATURE 3 */
 
 .feat3{
-    border: 1px solid blue;
+    /*border: 1px solid blue; */
     display: flex;
     font-size: large;
     font-style: oblique;
-    margin-top: 10PX;
+    margin-top: 20PX;
     
     /* width: 500px; */
 }
 
 .feat3_des{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 622px;
     padding-top: 43px;
 }
@@ -153,19 +153,19 @@ body{
 }
 
 .feat3_image{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     margin-left: 0px;
 }
 
 .feat3_image img{
-    width: 700px;
-    height: 478px;
+    width: 670px;
+    height: 440px;
 }
 
 
 /* FEATURE 4 */
 .feat4{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     display: flex;
     font-size: large;
     font-style: oblique;
@@ -175,7 +175,7 @@ body{
 }
 
 .feat4_des{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 622px;
     padding-top: 30px;
     margin-left: 53px;
@@ -201,7 +201,7 @@ body{
 }
 
 .feat4_image{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     margin-left: 0px;
     width: 600px;
     height: 409px;
@@ -215,11 +215,11 @@ body{
 
 .audio_spec{
     display: flex;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .a_spec1{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 265px;
     margin-left: 30px;
     /* font-weight: bold; */
@@ -227,7 +227,7 @@ body{
 }
 
 .a_spec2{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 240px;
     margin-left: 55px;
     /* font-weight: bold; */
@@ -241,3 +241,6 @@ body{
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
 }
+
+
+
