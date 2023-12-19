@@ -57,7 +57,7 @@
 }
 .slide .item:nth-child(4){
     left: calc(50% + 220px);
-    border-radius: 0px;
+    border-radius: 10px;
 }
 .slide .item:nth-child(5){
     left: calc(50% + 440px);
@@ -127,8 +127,6 @@
         filter: blur(0);
     }
 }
-
-
 
 .button{
     width: 100%;
